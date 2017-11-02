@@ -1,9 +1,6 @@
 package kz.kcollege.jdbc;
-
 import spark.Request;
-
 import java.sql.*;
-
 public class JDBCPUT {
     //Ссылка, логин и пароль для входа в БД
     private final String url = "jdbc:mysql://localhost:3306/sqlcollegeweber";
@@ -59,7 +56,6 @@ public class JDBCPUT {
         //Возвращаем ответ
         return "Success";
     }
-
     private static boolean dataTest(Request request) {
         //Проверка на ввод "data"
         if (request.queryParams("data") != null) {

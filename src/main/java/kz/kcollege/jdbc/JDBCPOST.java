@@ -1,9 +1,6 @@
 package kz.kcollege.jdbc;
-
 import spark.Request;
-
 import java.sql.*;
-
 public class JDBCPOST {
     //Ссылка, логин и пароль для входа в БД
     private final String url = "jdbc:mysql://localhost:3306/sqlcollegeweber";
@@ -24,7 +21,6 @@ public class JDBCPOST {
             System.out.println("Error SQL Connecting");
         }
     }
-
     public String start(Request request) {
         //Проверка "first" и "last", чтобы продолжить работу
         if ((request.queryParams("first") != null) && (request.queryParams("last") != null)) {
@@ -131,7 +127,6 @@ public class JDBCPOST {
         //Возвращаем ответ
         return "Success";
     }
-
     private static boolean dataTest(Request request) {
         //Проверка на ввод "data"
         if (request.queryParams("data") != null) {

@@ -64,5 +64,4 @@ public class JDCBDisplay {
             return "Error display";
         }
     }
-
 }

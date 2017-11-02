@@ -1,7 +1,5 @@
 package kz.kcollege.jdbc;
-
 import java.sql.*;
-
 public class JDBCDELETE {
     //Ссылка, логин и пароль для входа в БД
     private final String url = "jdbc:mysql://localhost:3306/sqlcollegeweber";
