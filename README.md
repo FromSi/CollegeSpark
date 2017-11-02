@@ -5,7 +5,9 @@
 
 # Gradle
 > compile 'mysql:mysql-connector-java:5.1.6'
+
 > compile 'com.google.code.gson:gson:2.8.0'
+
 > compile 'com.sparkjava:spark-core:2.6.0'
 
 # REST
