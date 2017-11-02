@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fe1f348a-bd42-442f-8561-aff7bf03373b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCDELETE.java" afterPath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCDELETE.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCGET.java" afterPath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCGET.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPOST.java" afterPath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPOST.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPUT.java" afterPath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPUT.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDCBDisplay.java" afterPath="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDCBDisplay.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,62 +32,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="JDBCDELETE.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCDELETE.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="17" />
-              <folding>
-                <marker date="1509595257604" expanded="true" signature="976:1011" ph=" SELECT statement (USERS)" />
-                <marker date="1509595257604" expanded="true" signature="1128:1161" ph=" DELETE statement (USERS)" />
-                <marker date="1509595257604" expanded="true" signature="1268:1300" ph=" DELETE statement (INFO)" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDBCPOST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPOST.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="40" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1509595257360" expanded="true" signature="3882:3971" ph=" INSERT statement (USERS)" />
-                <marker date="1509595257360" expanded="true" signature="4089:4137" ph=" INSERT statement (INFO)" />
-                <marker date="1509595257360" expanded="true" signature="4559:4648" ph=" INSERT statement (USERS)" />
-                <marker date="1509595257360" expanded="true" signature="4759:4816" ph=" INSERT statement (INFO)" />
-                <marker date="1509595257360" expanded="true" signature="5242:5331" ph=" INSERT statement (USERS)" />
-                <marker date="1509595257360" expanded="true" signature="5443:5501" ph=" INSERT statement (INFO)" />
-                <marker date="1509595257360" expanded="true" signature="5936:6025" ph=" INSERT statement (USERS)" />
-                <marker date="1509595257360" expanded="true" signature="6130:6197" ph=" INSERT statement (INFO)" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDCBDisplay.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDCBDisplay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="55" column="46" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JDBCGET.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="JDBCGET.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCGET.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="48" selection-end-column="56" />
+            <state relative-caret-position="338">
+              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
               <folding>
-                <marker date="1509595257560" expanded="true" signature="1066:1085" ph=" SELECT statement (USERS)" />
-                <marker date="1509595257560" expanded="true" signature="1262:1401" ph=" SELECT statement (USERS, INFO)" />
-                <marker date="1509595257560" expanded="true" signature="1881:1910" ph=" SELECT statement (USERS)" />
-                <marker date="1509595257560" expanded="true" signature="2092:2247" ph=" SELECT statement (USERS, INFO)" />
+                <marker date="1509596565588" expanded="true" signature="1064:1083" ph=" SELECT statement (USERS)" />
+                <marker date="1509596565588" expanded="true" signature="1260:1399" ph=" SELECT statement (USERS, INFO)" />
+                <marker date="1509596565588" expanded="true" signature="1879:1908" ph=" SELECT statement (USERS)" />
+                <marker date="1509596565588" expanded="true" signature="2090:2245" ph=" SELECT statement (USERS, INFO)" />
               </folding>
             </state>
           </provider>
@@ -393,11 +352,11 @@
         <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/Jdbc.java" />
         <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/Display.java" />
         <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDCBDisplay.java" />
         <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCDELETE.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCGET.java" />
         <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPOST.java" />
         <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPUT.java" />
-        <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDCBDisplay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCGET.java" />
       </list>
     </option>
   </component>
@@ -671,10 +630,10 @@
         <state relative-caret-position="520">
           <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
-            <marker date="1509595257560" expanded="true" signature="1066:1085" ph=" SELECT statement (USERS)" />
-            <marker date="1509595257560" expanded="true" signature="1262:1401" ph=" SELECT statement (USERS, INFO)" />
-            <marker date="1509595257560" expanded="true" signature="1881:1910" ph=" SELECT statement (USERS)" />
-            <marker date="1509595257560" expanded="true" signature="2092:2247" ph=" SELECT statement (USERS, INFO)" />
+            <marker date="1509596565588" expanded="true" signature="1064:1083" ph=" SELECT statement (USERS)" />
+            <marker date="1509596565588" expanded="true" signature="1260:1399" ph=" SELECT statement (USERS, INFO)" />
+            <marker date="1509596565588" expanded="true" signature="1879:1908" ph=" SELECT statement (USERS)" />
+            <marker date="1509596565588" expanded="true" signature="2090:2245" ph=" SELECT statement (USERS, INFO)" />
           </folding>
         </state>
       </provider>
@@ -734,69 +693,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCDELETE.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="17" />
+        <state relative-caret-position="-598">
+          <caret line="1" column="18" lean-forward="false" selection-start-line="1" selection-start-column="18" selection-end-line="1" selection-end-column="18" />
           <folding>
-            <marker date="1509595257604" expanded="true" signature="976:1011" ph=" SELECT statement (USERS)" />
-            <marker date="1509595257604" expanded="true" signature="1128:1161" ph=" DELETE statement (USERS)" />
-            <marker date="1509595257604" expanded="true" signature="1268:1300" ph=" DELETE statement (INFO)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCGET.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="47" column="24" lean-forward="true" selection-start-line="47" selection-start-column="24" selection-end-line="48" selection-end-column="56" />
-          <folding>
-            <marker date="1509595257560" expanded="true" signature="1066:1085" ph=" SELECT statement (USERS)" />
-            <marker date="1509595257560" expanded="true" signature="1262:1401" ph=" SELECT statement (USERS, INFO)" />
-            <marker date="1509595257560" expanded="true" signature="1881:1910" ph=" SELECT statement (USERS)" />
-            <marker date="1509595257560" expanded="true" signature="2092:2247" ph=" SELECT statement (USERS, INFO)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPUT.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-240">
-          <caret line="48" column="49" lean-forward="false" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1509595257412" expanded="true" signature="1039:1074" ph=" SELECT statement (USERS)" />
-            <marker date="1509595257412" expanded="true" signature="1367:1455" ph=" UPDATE statement (USERS)" />
-            <marker date="1509595257412" expanded="true" signature="1655:1741" ph=" UPDATE statement (USERS)" />
-            <marker date="1509595257412" expanded="true" signature="2076:2101" ph=" UPDATE statement (INFO)" />
-            <marker date="1509595257412" expanded="true" signature="2076:2168" ph=" UPDATE statement (INFO)" />
-            <marker date="1509595257412" expanded="true" signature="2394:2474" ph=" UPDATE statement (INFO)" />
+            <marker date="1509596565634" expanded="true" signature="974:1009" ph=" SELECT statement (USERS)" />
+            <marker date="1509596565634" expanded="true" signature="1126:1159" ph=" DELETE statement (USERS)" />
+            <marker date="1509596565634" expanded="true" signature="1266:1298" ph=" DELETE statement (INFO)" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPOST.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="39" column="32" lean-forward="true" selection-start-line="39" selection-start-column="32" selection-end-line="40" selection-end-column="46" />
+        <state relative-caret-position="-182">
+          <caret line="128" column="5" lean-forward="false" selection-start-line="128" selection-start-column="5" selection-end-line="128" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1509595257360" expanded="true" signature="3882:3971" ph=" INSERT statement (USERS)" />
-            <marker date="1509595257360" expanded="true" signature="4089:4137" ph=" INSERT statement (INFO)" />
-            <marker date="1509595257360" expanded="true" signature="4559:4648" ph=" INSERT statement (USERS)" />
-            <marker date="1509595257360" expanded="true" signature="4759:4816" ph=" INSERT statement (INFO)" />
-            <marker date="1509595257360" expanded="true" signature="5242:5331" ph=" INSERT statement (USERS)" />
-            <marker date="1509595257360" expanded="true" signature="5443:5501" ph=" INSERT statement (INFO)" />
-            <marker date="1509595257360" expanded="true" signature="5936:6025" ph=" INSERT statement (USERS)" />
-            <marker date="1509595257360" expanded="true" signature="6130:6197" ph=" INSERT statement (INFO)" />
+            <marker date="1509596565462" expanded="true" signature="3878:3967" ph=" INSERT statement (USERS)" />
+            <marker date="1509596565462" expanded="true" signature="4085:4133" ph=" INSERT statement (INFO)" />
+            <marker date="1509596565462" expanded="true" signature="4555:4644" ph=" INSERT statement (USERS)" />
+            <marker date="1509596565462" expanded="true" signature="4755:4812" ph=" INSERT statement (INFO)" />
+            <marker date="1509596565462" expanded="true" signature="5238:5327" ph=" INSERT statement (USERS)" />
+            <marker date="1509596565462" expanded="true" signature="5439:5497" ph=" INSERT statement (INFO)" />
+            <marker date="1509596565462" expanded="true" signature="5932:6021" ph=" INSERT statement (USERS)" />
+            <marker date="1509596565462" expanded="true" signature="6126:6193" ph=" INSERT statement (INFO)" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCPUT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1696">
+          <caret line="0" column="25" lean-forward="false" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1509596565505" expanded="true" signature="1036:1071" ph=" SELECT statement (USERS)" />
+            <marker date="1509596565505" expanded="true" signature="1364:1452" ph=" UPDATE statement (USERS)" />
+            <marker date="1509596565505" expanded="true" signature="1652:1738" ph=" UPDATE statement (USERS)" />
+            <marker date="1509596565505" expanded="true" signature="2073:2098" ph=" UPDATE statement (INFO)" />
+            <marker date="1509596565505" expanded="true" signature="2073:2165" ph=" UPDATE statement (INFO)" />
+            <marker date="1509596565505" expanded="true" signature="2391:2471" ph=" UPDATE statement (INFO)" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDCBDisplay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="55" column="46" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        <state relative-caret-position="254">
+          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/kz/kcollege/jdbc/JDBCGET.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <marker date="1509596565588" expanded="true" signature="1064:1083" ph=" SELECT statement (USERS)" />
+            <marker date="1509596565588" expanded="true" signature="1260:1399" ph=" SELECT statement (USERS, INFO)" />
+            <marker date="1509596565588" expanded="true" signature="1879:1908" ph=" SELECT statement (USERS)" />
+            <marker date="1509596565588" expanded="true" signature="2090:2245" ph=" SELECT statement (USERS, INFO)" />
           </folding>
         </state>
       </provider>

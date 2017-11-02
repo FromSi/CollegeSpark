@@ -1,14 +1,10 @@
 package kz.kcollege;
-
 import kz.kcollege.jdbc.JDBCDELETE;
 import kz.kcollege.jdbc.JDBCGET;
 import kz.kcollege.jdbc.JDBCPOST;
 import kz.kcollege.jdbc.JDBCPUT;
-
 import static spark.Spark.*;
-
 public class Main {
-
     public static void main(String[] args) {
         //Обращение начинается с http://localhost/
         port(80);
@@ -31,6 +27,5 @@ public class Main {
         //Синтаксис для изменения информации пользователя в БД
         // http://localhost/users/{id} - где id - это любой id пользователя взятый из БД
         put("/users/:id", (request, response) -> new JDBCPUT().update(request, Integer.parseInt(request.params(":id"))));
-
     }
 }
