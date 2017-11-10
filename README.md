@@ -42,7 +42,11 @@ delete("/users/:id", (request, response) -> new JDBCDELETE().delete(Integer.pars
 > PUT
 ```java
 //Синтаксис для изменения информации пользователя в БД
-// http://localhost/users/{id} - где id - это любой id пользователя взятый из БД
+// http://localhost/users/{id} ? - где id - это любой id пользователя взятый из БД
+// & first = <Имя пользователя>
+// & last = <Фамилия пользователя>
+// & age = <Возраст пользователя>
+// & data = <Дата рождения пользователя>
 put("/users/:id", (request, response) -> new JDBCPUT().update(request, Integer.parseInt(request.params(":id"))));
 ```
 
